@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+<!-- Mirrored from squareanimage.com/fr/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Feb 2024 08:09:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="canonical" href="index.html"/>
+        <link rel="alternate" href="../index.html" hreflang="x-default"/>
+        <link rel="alternate" href="../ar/index.html" hreflang="ar"/>
+        <link rel="alternate" href="../es/index.html" hreflang="es"/>
+        <link rel="alternate" href="../hi/index.html" hreflang="hi"/>
+        <link rel="alternate" href="../ja/index.html" hreflang="ja"/>
+        <link rel="alternate" href="../ru/index.html" hreflang="ru"/>
+        <link rel="alternate" href="../zh/index.html" hreflang="zh"/>
+        <link rel="alternate" href="../it/index.html" hreflang="it"/>
+        <link rel="alternate" href="../de/index.html" hreflang="de"/>
+        
+        <title>Image Carrée - Rendre une image carrée</title>
+        <link rel="stylesheet" href="../style1.css" />
+        <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+        <meta name="keywords" content="image carrée, photo carrée, image carrée" />
+        <meta name="description" content="Transformez vos images en carrés parfaits avec notre outil de mise en forme d'image facile à utiliser. Il suffit de choisir votre image et de laisser notre outil faire le travail pour vous." />
+        <meta name="yandex-verification" content="a1152feae7c1cbae" />
+    </head>
+    <body>
+        <a href="../index.html"><img src="../logo.svg" class="logo_image" alt="Image Carrée" /></a>
+        <div class="wrapper">
+            <p> Image Carrée est un outil convivial qui vous permet de convertir rapidement et facilement n'importe quelle image en format carré. Que vous ayez besoin de redimensionner une image pour les médias sociaux, de créer une vignette pour un article de blog, ou simplement de faire une version carrée d'une image rectangulaire, cet outil est là pour vous.</p>
+            <div class="editor">
+                <div id="drop-zone" class="hidden"><label class="hz hi">Déposez plusieurs images à la fois</label>
+                </div>
+                <input type="file" id="upload-button" accept="Image/*" /><label for="upload-button" class="upload">Choisissez une image</label>
+                <div class="result">
+                    <figure class="image-container">
+                        <img id="image" alt="Image" style="display:none">
+                    </figure>
+                       <figure class="image-container">
+                        <div id="blur-option" class="option-container">
+                            <label for="blur">Choisissez le niveau de flou :</label>
+                            <input type="range" min="0" max="16" value="4" step="1" id="blur" class="cr-slider">
+                        </div>
+                        <div id="color-option" style="display: none;" class="option-container">
+                            <label for="background-color">Choisissez une couleur:</label><br />
+                            <input type="color" id="background-color" value="#FF0000" class="color-input" />
+                        </div>
+                    </figure>
+                    </div>
+                    <div class="croppieContainer"></div>
+                    <button id="download-button" class="button-gradient download hidden">Télécharger</button>
+                    <button id="process-all-images" class="button-gradient download hidden">Télécharger ZIP</button>
+                </div>
+                <div class="options center">
+                    <div class="option">
+                        <input type="radio" name="square-option" id="make-square" checked="checked" />
+                        <label for="make-square">Carré avec flou</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="square-option" id="color-square" />
+                        <label for="color-square">Carré avec couleur</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="square-option" id="resize-square" />
+                        <label for="resize-square">Carré par redimensionnement</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="square-option" id="crop-square" />
+                        <label for="crop-square">Carré par découpage</label>
+                    </div>
+                </div>
+                <h2>Rendre une Image Carrée avec Flou</h2>
+<p>En sélectionnant l'option "Image Carrée avec Arrière-plan Flou", votre image téléchargée sera transformée en format carré. L'image originale restera au centre, tandis que les zones environnantes seront remplies d'une version floue de l'image pour créer un arrière-plan visuellement attrayant.</p>
+<h2>Rendre une Image Carrée avec un Fond Coloré</h2>
+<p>Lorsque vous choisissez l'option "Carré avec Couleur", l'image sera convertie en format carré en ajoutant un fond coloré solide. Vous pouvez choisir la couleur souhaitée pour remplir l'espace supplémentaire autour de l'image originale, en maintenant l'image centrée.</p>
+<h2>Redimensionner une Image en Carré</h2>
+<p>En sélectionnant l'option "Carré par Redimensionnement", votre image téléchargée sera redimensionnée en format carré. L'image sera étirée ou compressée pour s'adapter aux dimensions carrées, ce qui peut entraîner une distorsion si le rapport d'aspect original n'est pas préservé.</p>
+<h2>Recadrer une Image en Carré</h2>
+<p>En choisissant l'option "Recadrage Carré", vous pouvez recadrer manuellement votre image téléchargée en format carré. Cette option vous permet de sélectionner la zone de l'image que vous souhaitez conserver tout en supprimant le reste. La zone sélectionnée sera ensuite redimensionnée pour remplir la toile carrée dans son intégralité.</p>
+<h2>Pourquoi devrais-je rendre une image, une photo ou une illustration carrée ?</h2>
+<table class="image-table">
+    <tr>
+        <th>Raisons de rendre une image carrée</th>
+        <th>Exemples</th>
+    </tr>
+    <tr>
+        <td>Réseaux sociaux</td>
+        <td>Instagram, Facebook</td>
+    </tr>
+    <tr>
+        <td>Consistance</td>
+        <td>Portfolio, site web</td>
+    </tr>
+    <tr>
+        <td>Composition</td>
+        <td>Symétrie, équilibre</td>
+    </tr>
+    <tr>
+        <td>Polyvalence</td>
+        <td>Recadrage, redimensionnement</td>
+    </tr>
+    <tr>
+        <td>Mise au point</td>
+        <td>Portraits, produits</td>
+    </tr>
+    <tr>
+        <td>Impression</td>
+        <td>Pochettes d'album, impressions sur toile</td>
+    </tr>
+</table>
+<h2>Cas d'utilisation du format "Image Carrée"</h2>
+<p>
+    Cet outil met vos images en carré pour Facebook, Instagram, Twitter, LinkedIn, YouTube CV et les documents sur notre site web pour résoudre un problème courant sans les recadrer. Vous pouvez télécharger votre photo et la convertir instantanément en un
+    format carré parfaitement adapté à tous les principaux réseaux sociaux en utilisant notre outil convivial. Avec notre outil en ligne, vous pouvez dire adieu au recadrage et bonjour aux photos de profil correctement carrées.
+</p>
+<h2>Fonctionnalités de l'outil Image Carrée</h2>
+<ul>
+    <li>Aucun recadrage / Recadrage : Notre outil en ligne offre 4 options différentes pour convertir votre image en un carré parfait. Trois de ces options n'impliquent aucun recadrage, tandis que la quatrième option vous permet de recadrer manuellement l'image si vous le souhaitez. Ces options vous permettent de choisir la méthode qui convient le mieux à vos besoins et à vos préférences.</li>
+    <li>Prise en charge de plusieurs formats d'image : Notre outil en ligne prend en charge plusieurs formats d'image, notamment JPG et PNG, ce qui vous permet de convertir des images de différents formats en un carré parfait.</li>
+    <li>Glisser-déposer : Téléchargez facilement votre image de profil directement dans l'outil sans avoir besoin de processus d'importation complexes.</li>
+    <li>Facilité d'utilisation : Notre outil en ligne est incroyablement convivial et intuitif, ce qui rend le processus de mise en carré de votre image de profil très facile. Vous n'avez pas besoin de compétences techniques particulières pour utiliser notre outil efficacement.</li>
+    <li>Gratuité : Notre outil est totalement gratuit et ne nécessite aucune installation de logiciel supplémentaire. Il est accessible via votre navigateur web, ce qui le rend facile à utiliser sur n'importe quel appareil et depuis n'importe où dans le monde.</li>
+    <li>Prise en charge du traitement par lots : Notre outil en ligne prend en charge le traitement par lots des images, ce qui signifie que vous pouvez télécharger et convertir plusieurs images en carré en une seule fois. Que vous ayez quelques images ou des centaines, vous pouvez simplement les faire glisser et les déposer dans l'outil, qui les convertira automatiquement en carré. Une fois le processus de conversion terminé, vous pouvez télécharger toutes les images carrées dans un fichier ZIP pour un stockage et un partage faciles.</li>
+</ul>
+
+<script src="../scriptcom.js" defer="defer"></script>
+<script src="../script.js" defer="defer"></script>
+<script async src="../../pagead2.googlesyndication.com/pagead/js/f8f51.txt?client=ca-pub-1229744997711210"
+     crossorigin="anonymous"></script>
+<footer>
+    <p class="center">© 2023 Image Carrée <br> <a href="../terms.html">Conditions d'utilisation</a> </p>
+</footer>
+</div>
+</body>
+
+<!-- Mirrored from squareanimage.com/fr/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Feb 2024 08:09:17 GMT -->
+</html>
+

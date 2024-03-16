@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from squareanimage.com/ar/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Feb 2024 08:09:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+ <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="canonical" href="index.html"/>
+        <link rel="alternate" href="../index.html" hreflang="x-default"/>
+        <link rel="alternate" href="../es/index.html" hreflang="es"/>
+        <link rel="alternate" href="../fr/index.html" hreflang="fr"/>
+        <link rel="alternate" href="../hi/index.html" hreflang="hi"/>
+        <link rel="alternate" href="../ja/index.html" hreflang="ja"/>
+        <link rel="alternate" href="../ru/index.html" hreflang="ru"/>
+        <link rel="alternate" href="../zh/index.html" hreflang="zh"/>
+        <link rel="alternate" href="../it/index.html" hreflang="it"/>
+        <link rel="alternate" href="../de/index.html" hreflang="de"/>
+        
+        
+
+        <title>Square Image - Make image square</title>
+        <link rel="stylesheet" href="../style-ar.css" />
+        <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+        <meta name="keywords" content="صورة مربعة" />
+        <meta name="description" content="حوّل صورك إلى مربعات مثالية باستخدام أداة مربّع الصورة سهلة الاستخدام. ما عليك سوى اختيار صورتك ودع أداتنا تقوم بالعمل نيابة عنك." />
+
+        
+    </head>
+    <body>
+        <a href="../index.html"><img src="../logo.svg" class="logo_image" alt="Square Image" /></a>
+        <div class="wrapper">
+            <p>الصورة المربعة هي أداة سهلة الاستخدام تسمح لك بتحويل أي صورة بسرعة وسهولة إلى تنسيق مربع. سواء أكنت بحاجة إلى تغيير حجم صورة لوسائل التواصل الاجتماعي ، أو إنشاء صورة مصغرة لمنشور مدونة ، أو ببساطة تريد إنشاء نسخة مربعة من صورة مستطيلة ، فإن هذه الأداة قد جعلتك مغطاة.</p>
+            <div class="editor">
+                <div id="drop-zone" class="hidden"><label class="hz hi">قم بإسقاط عدة صور مرة واحدة</label>
+                </div>
+                <input type="file" id="upload-button" accept="Image/*" /><label for="upload-button" class="upload">اختر صورة</label>
+                <div class="result">
+                    <figure class="image-container">
+                        <img id="image" alt="Image" style="display:none">
+                    </figure>
+                       <figure class="image-container">
+                        <div id="blur-option" class="option-container">
+                            <label for="blur">اختر نطاق التمويه:</label>
+                            <input type="range" min="0" max="16" value="4" step="1" id="blur" class="cr-slider">
+                        </div>
+                        <div id="color-option" style="display: none;" class="option-container">
+                            <label for="background-color">اختر اللون:</label><br />
+                            <input type="color" id="background-color" value="#FF0000" class="color-input" />
+                        </div>
+                    </figure>
+                    </div>
+                    <div class="croppieContainer"></div>
+                    <button id="download-button" class="button-gradient download hidden">تحميل</button>
+                    <button id="process-all-images" class="button-gradient download hidden">تحميل أرشيف</button>
+                </div>
+                <div class="options center">
+                    <div class="option">
+                        <input type="radio" name="square-option" id="make-square" checked="checked" />
+                        <label for="make-square">مربع مع طمس</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="square-option" id="color-square" />
+                        <label for="color-square">مربع مع حشو اللون</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="square-option" id="resize-square" />
+                        <label for="resize-square">تربيع عن طريق تغيير الحجم</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="square-option" id="crop-square" />
+                        <label for="crop-square">مربع المحاصيل</label>
+                    </div>
+                </div>
+
+
+
+
+
+                
+
+                <h1>صورة مربعة  </h1>
+                <p>يشير تحويل الصورة إلى مربع إلى عملية تحويل الصورة بأي نسبة عرض إلى ارتفاع إلى صورة مربعة ، والتي لها آثار في الحياة اليومية</p>
+            <h2>كيف تربّع صورة أو صورة أو صورة؟</h2>
+            <p>لجعل صورك مربعة باستخدام أداتنا ، اتبع هذه الخطوات البسيطة:</p>
+            <div>
+                <ol>
+                    <li>قم بتحميل صورتك: انقر فوق الزر "تحديد صورة" واختر ملف الصورة الذي تريد تحويله إلى تنسيق مربع. يمكنك تحديد صورة من جهازك أو سحبها وإفلاتها في الأداة.</li>
+                    <li>حدد خيار التربيع: بناءً على تفضيلاتك ، حدد أحد خيارات التربيع الأربعة المتوفرة: "مربع مع تمويه" أو "مربع به لون" أو "مربع حسب تغيير الحجم" أو "مربع اقتصاص 1: 1".</li>
+                    <li>تخصيص صورتك: بناءً على خيار التربيع المحدد ، يمكنك ضبط الإعدادات. على سبيل المثال ، يمكنك ضبط نطاق التمويه لخيار "Square with Blur" ، وتحديد لون لخيار "Square with Color" ، واختيار منطقة الاقتصاص مع دعم التكبير واللمس لخيار مربع الاقتصاص 1: 1.</li>
+                    <li>معاينة صورتك: بمجرد أن تشعر بالرضا عن تعديلات الصورة ، انقر فوق الزر "معاينة" لرؤية الإخراج النهائي. إذا لزم الأمر ، قم بإجراء مزيد من التعديلات حتى تشعر بالرضا.</li>
+                    <li>تنزيل صورتك: بعد الانتهاء من الإخراج ، انقر فوق الزر "تنزيل" لحفظ الصورة المربعة على جهازك.</li>
+                    </ol>
+    </div>
+
+
+
+
+
+
+    
+    <h2>اجعل الصورة مربعة مع التعتيم</h2>
+    <p>من خلال تحديد الخيار "صورة مربعة بخلفية ضبابية" ، سيتم تحويل صورتك التي تم تحميلها إلى تنسيق مربع. ستبقى الصورة الأصلية في المنتصف ، بينما ستُبطن المناطق المحيطة بنسخة ضبابية من الصورة لإنشاء خلفية جذابة بصريًا.</p>
+    <h2>اجعل الصورة مربعة بخلفية ملونة</h2>
+    <p>عند اختيار خيار اللون المربع ، سيتم تحويل الصورة إلى تنسيق مربع بإضافة خلفية ملونة صلبة. يمكنك اختيار اللون المطلوب لملء المساحة الإضافية حول الصورة الأصلية ، مع إبقاء الصورة في المنتصف.</p>
+    <h2>تغيير حجم الصورة إلى مربع</h2>
+    <p>سيؤدي تحديد المربع عن طريق تغيير الحجم إلى تغيير حجم الصورة التي تم تحميلها إلى تنسيق مربع. سيتم شد الصورة أو ضغطها لتلائم أبعاد المربع ، مما قد يؤدي إلى تشويه إذا لم يتم الحفاظ على نسبة العرض إلى الارتفاع الأصلية.</p>
+    <h2>صورة المحاصيل إلى مربع</h2>
+    <p>من خلال تحديد خيار مربع الاقتصاص ، يمكنك اقتصاص الصورة التي تم تحميلها يدويًا إلى تنسيق مربع. يتيح لك هذا الخيار تحديد منطقة الصورة التي تريد الاحتفاظ بها أثناء إزالة الباقي. سيتم بعد ذلك تغيير حجم المنطقة المحددة لملء اللوحة القماشية المربعة بالكامل.</p>
+            <h2>لماذا يجب أن أصنع صورة أو صورة أو صورة مربعة؟</h2>
+            <table class="image-table">
+                <tr>
+                  <th>الأسباب المؤدية إلى جعل الصورة مربعة</th>
+                  <th>الأمثلة</th>
+                </tr>
+                <tr>
+                  <td>وسائل التواصل الاجتماعي</td>
+                  <td>إنستغرام، فيسبوك</td>
+                </tr>
+                <tr>
+                  <td>الاتساق</td>
+                  <td>ملف العمل، الموقع الإلكتروني</td>
+                </tr>
+                <tr>
+                  <td>التكوين</td>
+                  <td>التماثل، التوازن</td>
+                </tr>
+                <tr>
+                  <td>التعددية</td>
+                  <td>القص، التغيير في الحجم</td>
+                </tr>
+                <tr>
+                  <td>التركيز</td>
+                  <td>البورتريهات، المنتجات</td>
+                </tr>
+                <tr>
+                  <td>الطباعة</td>
+                  <td>أغلفة الألبومات، طباعة على القماش</td>
+                </tr>
+              </table>
+
+
+
+
+              
+              <h2>حالة الاستخدام لتنسيق "صورة إلى مربع"</h2>
+              <p>
+                تقوم هذه الأداة بترتيب صورك على Facebook و Instagram و Twitter و LinkedIn و Youtube CV والمستندات على موقعنا على الويب لحل مشكلة شائعة دون اقتصاصها. يمكنك تحميل صورتك وتحويلها على الفور إلى ملف
+                تنسيق مربع مثالي مثالي لجميع شبكات التواصل الاجتماعي الرئيسية باستخدام أداتنا سهلة الاستخدام. باستخدام أداتنا عبر الإنترنت ، يمكنك أن تقول وداعًا للقص ومرحبًا بصور الملف الشخصي المربعة بشكل صحيح.
+              </p>
+              <h2>ميزات أداة الصورة المربعة</h2>
+              <ul>
+                <li>لا تقطيع / التقطيع: أداة الإنترنت الخاصة بنا تقدم 4 خيارات مختلفة لتحويل صورتك إلى مربع كامل. ثلاثة من هذه الخيارات لا تتضمن التقطيع، بينما الخيار الرابع يتيح لك تقطيع الصورة يدوياً إذا رغبت في ذلك. هذه الخيارات تتيح لك اختيار الطريقة التي تناسب احتياجاتك وتفضيلاتك بشكل أفضل.</li>
+                <li>أداة الإنترنت الخاصة بنا تدعم تنسيقات الصور المتعددة، بما في ذلك JPG و PNG، مما يتيح لك تحويل الصور ذات التنسيقات المختلفة إلى مربع كامل.</li>
+                <li>السحب والإفلات: يمكنك بسهولة تحميل صورة الملف الشخصي الخاصة بك مباشرة إلى الأداة دون الحاجة إلى أي عمليات تحميل معقدة.</li>
+                <li>سهلة الاستخدام: أداة الإنترنت الخاصة بنا سهلة الاستخدام وبديهية بشكل لا يصدق، مما يجعل عملية جعل صورة ملفك الشخصي مربعة بريسة. ليس من الضروري أن يكون لديك أي خبرة تقنية لاستخدام أداتنا بفعالية.</li>
+                <li>مجاني: أداة الإنترنت الخاصة بنا مجانية تماما للاستخدام ولا تتطلب تثبيت أي برامج إضافية. يمكن الوصول إليها من خلال متصفح الويب الخاص بك، مما يجعلها سهلة الاستخدام على أي جهاز ومن أي مكان في العالم.</li>
+                <li>أداة الإنترنت الخاصة بنا تدعم معالجة الصور الدفعية، مما يعني أنك يمكنك تحميل وتحويل عدة صور إلى مربعات كاملة في وقت واحد. سواء كان لديك عدة صور أو مئات، يمكنك ببساطة سحبها وإفلاتها في الأداة وسوف تقوم تلقائيا بتحويلها جميعا إلى مربعات. بمجرد اكتمال عملية التحويل، يمكنك تنزيل جميع الصور المربعة في ملف ZIP لسهولة التخزين والمشاركة.</li>
+                </ul>
+
+              <script src="../scriptcom.js" defer="defer"></script>
+              <script src="../script.js" defer="defer"></script>
+      <footer>
+          <p class="center">© 2023 صورة مربعة <br> <a href="../terms.html">Terms of Use</a> </p>
+      </footer>
+  </div>
+  </body>
+
+<!-- Mirrored from squareanimage.com/ar/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Feb 2024 08:09:15 GMT -->
+</html>
+
+
