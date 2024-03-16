@@ -65,12 +65,12 @@ return new Promise((resolve, reject) => {
     // Load Croppie CSS
     const croppieCSS = document.createElement('link');
     croppieCSS.rel = 'stylesheet';
-    croppieCSS.href = 'https://squareanimage.com/croppie.min.css';
+    croppieCSS.href = 'https://squareanimage.vercel.app/croppie.min.css';
     document.head.appendChild(croppieCSS);
 
  
     const croppieJS = document.createElement('script');
-    croppieJS.src = 'https://squareanimage.com/croppie.min.js';
+    croppieJS.src = 'https://squareanimage.vercel.app/croppie.min.js';
     croppieJS.onload = () => resolve();
     croppieJS.onerror = () => reject('Failed to load Croppie library');
     document.body.appendChild(croppieJS);
